@@ -72,33 +72,24 @@ module_exit(hello_exit);
 
 //Results from log - main.cpp inside Part3 folder is the application calling this driver, yielding this result.
 
-// Oct  8 17:17:09 sigurbergur kernel: [ 3257.776959] hello: Device has been opened 21 time(s)
-// Oct  8 17:17:09 sigurbergur kernel: [ 3257.777037] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:09 sigurbergur kernel: [ 3257.777083] hello: Device successfully closed
-// Oct  8 17:17:10 sigurbergur kernel: [ 3258.777456] hello: Device has been opened 22 time(s)
-// Oct  8 17:17:10 sigurbergur kernel: [ 3258.777508] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:10 sigurbergur kernel: [ 3258.777542] hello: Device successfully closed
-// Oct  8 17:17:11 sigurbergur kernel: [ 3259.777784] hello: Device has been opened 23 time(s)
-// Oct  8 17:17:11 sigurbergur kernel: [ 3259.777836] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:11 sigurbergur kernel: [ 3259.777871] hello: Device successfully closed
-// Oct  8 17:17:12 sigurbergur kernel: [ 3260.778126] hello: Device has been opened 24 time(s)
-// Oct  8 17:17:12 sigurbergur kernel: [ 3260.778179] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:12 sigurbergur kernel: [ 3260.778212] hello: Device successfully closed
-// Oct  8 17:17:13 sigurbergur kernel: [ 3261.778467] hello: Device has been opened 25 time(s)
-// Oct  8 17:17:13 sigurbergur kernel: [ 3261.778518] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:13 sigurbergur kernel: [ 3261.778553] hello: Device successfully closed
-// Oct  8 17:17:14 sigurbergur kernel: [ 3262.778805] hello: Device has been opened 26 time(s)
-// Oct  8 17:17:14 sigurbergur kernel: [ 3262.778856] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:14 sigurbergur kernel: [ 3262.778890] hello: Device successfully closed
-// Oct  8 17:17:15 sigurbergur kernel: [ 3263.779138] hello: Device has been opened 27 time(s)
-// Oct  8 17:17:15 sigurbergur kernel: [ 3263.779277] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:15 sigurbergur kernel: [ 3263.779312] hello: Device successfully closed
-// Oct  8 17:17:16 sigurbergur kernel: [ 3264.779566] hello: Device has been opened 28 time(s)
-// Oct  8 17:17:16 sigurbergur kernel: [ 3264.779618] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:16 sigurbergur kernel: [ 3264.779654] hello: Device successfully closed
-// Oct  8 17:17:17 sigurbergur kernel: [ 3265.779908] hello: Device has been opened 29 time(s)
-// Oct  8 17:17:17 sigurbergur kernel: [ 3265.779961] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:17 sigurbergur kernel: [ 3265.779995] hello: Device successfully closed
-// Oct  8 17:17:18 sigurbergur kernel: [ 3266.780247] hello: Device has been opened 30 time(s)
-// Oct  8 17:17:18 sigurbergur kernel: [ 3266.780299] hello write: accepting 16 bytes from the user
-// Oct  8 17:17:18 sigurbergur kernel: [ 3266.780333] hello: Device successfully closed
+// Oct  9 18:27:09 sigurbergur kernel: [ 3257.776959] hello: Device has been opened 21 time(s)
+// Oct  9 18:27:09 sigurbergur kernel: [ 3257.777037] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:09 sigurbergur kernel: [ 3257.777083] hello: Device successfully closed
+// Oct  9 18:27:10 sigurbergur kernel: [ 3258.777456] hello: Device has been opened 22 time(s)
+// Oct  9 18:27:10 sigurbergur kernel: [ 3258.777508] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:10 sigurbergur kernel: [ 3258.777542] hello: Device successfully closed
+// Oct  9 18:27:11 sigurbergur kernel: [ 3259.777784] hello: Device has been opened 23 time(s)
+// Oct  9 18:27:11 sigurbergur kernel: [ 3259.777836] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:11 sigurbergur kernel: [ 3259.777871] hello: Device successfully closed
+// Oct  9 18:27:12 sigurbergur kernel: [ 3260.778126] hello: Device has been opened 24 time(s)
+// Oct  9 18:27:12 sigurbergur kernel: [ 3260.778179] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:12 sigurbergur kernel: [ 3260.778212] hello: Device successfully closed
+// Oct  9 18:27:13 sigurbergur kernel: [ 3261.778467] hello: Device has been opened 25 time(s)
+// Oct  9 18:27:13 sigurbergur kernel: [ 3261.778518] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:13 sigurbergur kernel: [ 3261.778553] hello: Device successfully closed
+// Oct  9 18:27:14 sigurbergur kernel: [ 3262.778805] hello: Device has been opened 26 time(s)
+// Oct  9 18:27:14 sigurbergur kernel: [ 3262.778856] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:14 sigurbergur kernel: [ 3262.778890] hello: Device successfully closed
+// Oct  9 18:27:15 sigurbergur kernel: [ 3263.779138] hello: Device has been opened 27 time(s)
+// Oct  9 18:27:15 sigurbergur kernel: [ 3263.779277] hello write: accepting 16 bytes from the user
+// Oct  9 18:27:15 sigurbergur kernel: [ 3263.779312] hello: Device successfully closed

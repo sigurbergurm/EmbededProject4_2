@@ -64,4 +64,4 @@ module_exit(hello_exit);
 //sudo mknod /dev/hello1 c 238 0 <- to make the device node with major number 238 and minor 0.
 
 //Runing:   echo "Open the pod bay doors, HAL." > /dev/hello1
-//yields:   Oct  8 16:37:11 sigurbergur kernel: [  859.511642] hello write: acceptin 29 bytes from the user 
+//yields:   Oct  9 17:37:11 sigurbergur kernel: [  859.511642] hello write: acceptin 29 bytes from the user 

@@ -45,9 +45,8 @@ kernal log:
 Oct  8 21:48:01 sigurbergur kernel: [  978.219751] dev: Hello world from the RPi LKM!
 Oct  8 22:16:46 sigurbergur kernel: [ 1503.916551] dev: Goodbye world from the RPi LKM!
 Oct  8 23:17:03 sigurbergur kernel: [ 1520.400242] dev: Hello Sigurbergur from the RPi LKM!
-Oct  8 23:27:08 sigurbergur kernel: [ 1526.073841] dev: Goodbye Sigurbergur from the RPi LKM!
 
-Inside the parameters folder in the /sys/module/hello is a file called "name".
-if we call the hello.ko with name="sigurbergur", we get  inside this file.
-if we call it with out the name=* it says world.
+Lokking inside the parameters folder in the /sys/module/hello there is a file "name" there.
+if we call the hello.ko is called with name = sigurbergur the name parameter in there changes
+otherwise it is written out as world as defined in line 12
 */
