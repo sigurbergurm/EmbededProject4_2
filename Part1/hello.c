@@ -42,10 +42,10 @@ vermagic:       5.4.51+ mod_unload modversions ARMv6 p2v8
 parm:           name:The name to display in /var/log/kern.log (charp)
 
 kernal log:
-Oct  7 20:58:01 sigurbergur kernel: [  978.219751] dev: Hello world from the RPi LKM!
-Oct  7 21:06:46 sigurbergur kernel: [ 1503.916551] dev: Goodbye world from the RPi LKM!
-Oct  7 21:07:03 sigurbergur kernel: [ 1520.400242] dev: Hello Heidar from the RPi LKM!
-Oct  7 21:07:08 sigurbergur kernel: [ 1526.073841] dev: Goodbye Heidar from the RPi LKM!
+Oct  8 21:48:01 sigurbergur kernel: [  978.219751] dev: Hello world from the RPi LKM!
+Oct  8 22:16:46 sigurbergur kernel: [ 1503.916551] dev: Goodbye world from the RPi LKM!
+Oct  8 23:17:03 sigurbergur kernel: [ 1520.400242] dev: Hello Sigurbergur from the RPi LKM!
+Oct  8 23:27:08 sigurbergur kernel: [ 1526.073841] dev: Goodbye Sigurbergur from the RPi LKM!
 
 Inside the parameters folder in the /sys/module/hello is a file called "name".
 if we call the hello.ko with name="sigurbergur", we get  inside this file.
