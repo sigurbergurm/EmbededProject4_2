@@ -1,0 +1,1 @@
+cmd_/home/pi/Embeded/Assignment4_2/Part1/hello.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/Embeded/Assignment4_2/Part1/hello.ko /home/pi/Embeded/Assignment4_2/Part1/hello.o /home/pi/Embeded/Assignment4_2/Part1/hello.mod.o;  true

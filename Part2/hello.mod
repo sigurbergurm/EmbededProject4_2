@@ -1,0 +1,2 @@
+/home/pi/Embeded/Assignment4_2/Part2/hello.o
+
